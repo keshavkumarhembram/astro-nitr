@@ -1,0 +1,63 @@
+.article {
+  width: 90%;
+  margin: 5%;
+}
+p {
+  font-size: 1.5rem;
+}
+
+.article--heading {
+  font-size: 3rem;
+  color: #ff6b00;
+}
+
+.article--post-detail {
+  padding: 20px 0px;
+  font-size: 1.3rem;
+  text-align: right;
+}
+.article--start {
+  margin-top: 20px;
+}
+
+.article--main-image {
+  width: 100%;
+}
+
+.mid-image {
+  padding-left: 10px;
+  float: right;
+  width: 40%;
+}
+
+.article--end-line {
+  margin: 20px 0px;
+}
+
+.divider {
+  width: 90%;
+  margin: 5%;
+}
+
+@media only screen and (max-width: 750px) {
+  p {
+    font-size: 1.1rem;
+  }
+  .article--heading {
+    font-size: 2rem;
+  }
+
+  .article--post-detail {
+    font-size: 0.8rem;
+  }
+
+  .mid-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .mid-image {
+    width: 100%;
+  }
+}
