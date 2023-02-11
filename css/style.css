@@ -28,9 +28,13 @@ a {
   --heading-color: #ff6b00;
 }
 a:focus,
-a:visited,
-a:hover {
+a:visited {
   color: var(--heading-color);
+}
+
+a:hover {
+  background-color: #ff6b00;
+  border-radius: 10%;
 }
 
 /* HEADER */
@@ -59,7 +63,7 @@ a:hover {
   align-items: center;
 
   width: 35vw;
-  padding-left: 0px;
+  padding-left: 3px;
 }
 
 .nav-list-item {
@@ -179,7 +183,7 @@ a:hover {
     width: 100%;
   }
 
-  .poster-title{
+  .poster-title {
     display: block;
   }
 
@@ -202,16 +206,16 @@ a:hover {
     margin: 20px 0px;
   }
 
-  .footer{
+  .footer {
     display: block;
     height: 60px;
   }
 
-  .footer h1{
+  .footer h1 {
     font-size: 1.6rem;
   }
 
-  .copy-right{
+  .copy-right {
     font-size: 0.8rem;
   }
 }
